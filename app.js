@@ -14,7 +14,7 @@ const app = express(); // Initialiserer Express-appen
 const PORT = 3000; // Standard port for lokal utvikling
 
 // Åpner/oppretter SQLite-databasefilen 'app.db' i prosjektmappen
-const db = new sqlite3.Database(path.join(__dirname, 'Sang.db')); // Oppretter/åpner databasefilen der data lagres
+const db = new sqlite3.Database(path.join(__dirname, 'app.db')); // Oppretter/åpner databasefilen der data lagres
 
 // Oppretter 'songs'-tabellen hvis den ikke finnes fra før
 db.serialize(() => { // Sørger for at SQL-kommandoer kjører i rekkefølge
