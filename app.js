@@ -22,7 +22,8 @@ db.serialize(() => { // Sørger for at SQL-kommandoer kjører i rekkefølge
     CREATE TABLE IF NOT EXISTS songs (               -- Lager tabellen bare hvis den ikke finnes
       id INTEGER PRIMARY KEY AUTOINCREMENT,          -- Primærnøkkel som øker automatisk
       title TEXT NOT NULL,                           -- Sangtittel (påkrevd)
-      artist TEXT NOT NULL,                          -- Artistnavn (påkrevd)
+      artist TEXT NOT NULL, 
+      listened_date NUMERIC NOT NULL,                         -- Artistnavn (påkrevd)
       test TEXT                                        -- Dato i format YYYY-MM-DD (påkrevd)
       )                                                -- Slutt på CREATE TABLE
   `); // Avslutter kjøringen av SQL-setningen
