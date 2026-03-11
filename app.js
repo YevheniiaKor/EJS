@@ -23,7 +23,8 @@ db.serialize(() => { // Sørger for at SQL-kommandoer kjører i rekkefølge
       id INTEGER PRIMARY KEY AUTOINCREMENT,          -- Primærnøkkel som øker automatisk
       title TEXT NOT NULL,                           -- Sangtittel (påkrevd)
       artist TEXT NOT NULL,                          -- Artistnavn (påkrevd)
-      listened_date TEXT NOT NULL                   -- Dato i format YYYY-MM-DD (påkrevd)
+      listened_date TEXT NOT NULL,
+      test TEXT NOT NULL                   -- Dato i format YYYY-MM-DD (påkrevd)
       )                                                -- Slutt på CREATE TABLE
   `); // Avslutter kjøringen av SQL-setningen
 }); // Avslutter serialize-blokk

@@ -10,7 +10,7 @@ body { /* Body-elementet */
 /* Toppnavigasjon */
 .site-header { /* Header-område */
   background: rgb(119, 116, 81); /* Hvit bakgrunn */
-  border-bottom: 1px solid #e5e7eb; /* Tynn bunnramme */
+  border-bottom: 1px solid #32311b; /* Tynn bunnramme */
   padding: 12px 16px; /* Indre luft */
 }
 
