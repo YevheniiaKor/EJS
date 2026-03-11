@@ -3,13 +3,13 @@ body { /* Body-elementet */
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; /* Lesbar fontfamilie */
   margin: 0; /* Fjerner standard margin */
   padding: 0; /* Fjerner standard padding */
-  background: #dcffd5; /* Lys bakgrunnsfarge */
+  background: #d5ffe5; /* Lys bakgrunnsfarge */
   color: #222; /* Mørk tekst for god kontrast */
 }
 
 /* Toppnavigasjon */
 .site-header { /* Header-område */
-  background: rgb(135, 157, 113); /* Hvit bakgrunn */
+  background: rgb(255, 255, 255); /* Hvit bakgrunn */
   border-bottom: 1px solid #e5e7eb; /* Tynn bunnramme */
   padding: 12px 16px; /* Indre luft */
 }
@@ -61,7 +61,7 @@ input { /* Tekst- og dato-inputs */
 
 /* Knapper */
 button { /* Generell knappestil */
-  background: #0ea5e9; /* Blå bakgrunn */
+  background: #efcf90; /* Blå bakgrunn */
   color: white; /* Hvit tekst */
   border: none; /* Ingen kantlinje */
   border-radius: 6px; /* Runde hjørner */
